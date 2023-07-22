@@ -1,10 +1,10 @@
 /**
- * 构造函数
+ * 构造函数,实际上是别的语言里类的角色
  * @param {string} name
  * @param {number} age
  * @param {number} height
  */
-function coder(name, age, height) {
+function Coder(name, age, height) {
   this.name = name
   this.age = age
   this.height = height
@@ -12,6 +12,6 @@ function coder(name, age, height) {
     console.log('runing')
   }
 }
-var stu1 = new coder('why', 18, 1.88)
+var stu1 = new Coder('why', 18, 1.88)
 stu1.runing()
 console.log(typeof stu1)
